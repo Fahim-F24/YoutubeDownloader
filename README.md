@@ -1,12 +1,9 @@
-```markdown
-# 🎬 YouTube Downloader (Batch Script)
+```
+#### 🎬 YouTube Downloader (Batch Script)
 
 A powerful and clean batch script to download videos using `yt-dlp`, convert incompatible audio formats (e.g., Opus ➜ AAC), and organize everything into a tidy folder structure. Perfect for keeping your YouTube library playback-ready for Windows apps like "Film & TV".
 
 ---
-
-Sure! Here’s that folder structure formatted nicely for a README markdown file:
-
 ```markdown
 ## 📁 Folder Structure
 
