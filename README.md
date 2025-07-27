@@ -1,13 +1,13 @@
 
 
-# 🎬 YouTube Downloader (Batch Script)
+# YouTube Downloader (Batch Script)
 
 A powerful and portable batch script to download YouTube videos using [`yt-dlp`](https://github.com/yt-dlp/yt-dlp),  
 convert audio from **Opus** to **AAC**, and organize everything cleanly — perfect for playback in Windows apps like "Film & TV".
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 YoutubeDownloader  
 ├── Downloads  
@@ -18,28 +18,28 @@ YoutubeDownloader
 ├── yt-dlp.conf             ← yt-dlp config file  
 ├── download.bat            ← Batch script  
 
-> 💡 `ffmpeg` and `ffprobe` are **not stored here** but must be available in your system `PATH`.
+> `ffmpeg` and `ffprobe` are **not stored here** but must be available in your system `PATH`.
 
 ---
 
-## 📦 First-Time Setup Summary
+## First-Time Setup Summary
 
 1. Download the following into a folder (e.g., `YoutubeDownloader`):  
    - `download.bat`  
    - `yt-dlp.exe`  
    - `yt-dlp.conf`  
-2. [Install and configure FFmpeg](#🔧-add-ffmpeg-to-system-path-windows)  
+2. [Install and configure FFmpeg](#add-ffmpeg-to-system-path-windows)  
 3. Run the batch script  
 4. Paste in a YouTube link  
 5. Videos will download, process, and appear in the `Downloads` folder  
 
 ---
 
-## 🧰 System Requirements
+## System Requirements
 
 The script depends on these tools being accessible globally via the command line:
 
-### ✅ Required Tools
+### Required Tools
 
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) — Download tool (included in folder)  
 - [`ffmpeg`](https://ffmpeg.org/) — Audio/video converter (must be in `PATH`)  
@@ -47,7 +47,7 @@ The script depends on these tools being accessible globally via the command line
 
 ---
 
-## 🔧 Add FFmpeg to System PATH (Windows)
+## Add FFmpeg to System PATH (Windows)
 
 1. [Download FFmpeg](https://ffmpeg.org/download.html) (Windows ZIP version)  
 2. Extract to a folder like: `C:\ffmpeg\bin`  
@@ -65,11 +65,11 @@ C:\ffmpeg\bin
 7. Click OK to close all dialogs  
 8. Restart your terminal or system to apply changes  
 
-> ✅ Once done, both `ffmpeg` and `ffprobe` will work from anywhere.
+> Once done, both `ffmpeg` and `ffprobe` will work from anywhere.
 
 ---
 
-## 🔍 Verifying Installation
+## Verifying Installation
 
 To check if FFmpeg is correctly installed and available from the command line:
 
@@ -97,7 +97,7 @@ Then FFmpeg is not added to your `PATH`. Follow the setup instructions above.
 
 ---
 
-## 🛠 How to Use
+## How to Use
 
 1. Download the following files into one folder:
 
@@ -111,13 +111,13 @@ Then FFmpeg is not added to your `PATH`. Follow the setup instructions above.
 
 ---
 
-## ⚙️ Example `yt-dlp.conf`
+## Example `yt-dlp.conf`
 
 This config file controls video quality, output format, and merging behavior.
 
 📝 The file `yt-dlp.conf` is **already included** in the repo.
 
-### ✍️ Contents of `yt-dlp.conf`:
+### Contents of `yt-dlp.conf`:
 
 ```txt
 # Download best video+audio up to 720p
@@ -132,7 +132,7 @@ This config file controls video quality, output format, and merging behavior.
 
 ---
 
-## 📦 Output Behavior
+## Output Behavior
 
 * All videos are downloaded to `Downloads\video\`
 * Videos with **Opus audio** are converted to **AAC**
@@ -147,7 +147,7 @@ This config file controls video quality, output format, and merging behavior.
 
 ---
 
-## 🧪 Tool Validation
+## Tool Validation
 
 Before doing anything, the script checks for:
 
@@ -159,7 +159,7 @@ If any are missing, it stops and shows an error message.
 
 ---
 
-## 👀 Output Sample
+## Output Sample
 
 ```text
 [INFO] Downloading videos from: https://youtube.com/...
@@ -171,7 +171,7 @@ Video Download Completed!
 
 ---
 
-## 🔐 License
+## License
 
 This script is for **personal use only**.
 No license is attached. Use responsibly and legally.
