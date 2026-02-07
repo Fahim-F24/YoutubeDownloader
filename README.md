@@ -49,8 +49,8 @@ The script depends on these tools being accessible globally via the command line
 
 ## Add FFmpeg to System PATH (Windows)
 
-1. [Download FFmpeg](https://ffmpeg.org/download.html) (Windows ZIP version)  
-2. Extract to a folder like: `C:\ffmpeg\bin`  
+1. [Download FFmpeg]([https://ffmpeg.org/download.html](https://www.gyan.dev/ffmpeg/builds/)) (ffmpeg-git-full.7z version)  
+2. Extract to a folder within and place in C: Drive (rename folder if needed) like: `C:\ffmpeg\bin`  
 3. Press `Win + R`, type `SystemPropertiesAdvanced`, press **Enter**  
 4. Click **Environment Variables**  
 5. Under "System variables", find `Path`, click **Edit**  
